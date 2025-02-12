@@ -1,8 +1,9 @@
+#	UNITY RELATED GITIGNORE
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-.utmp/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -36,6 +37,7 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
+.vsconfig
 *.suo
 *.tmp
 *.user
@@ -60,7 +62,6 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
-*.unitypackage.meta
 *.app
 
 # Crashlytics generated file
@@ -72,3 +73,46 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+
+
+#	DOXYGEN RELATED GITIGNORE
+
+*~
+.*sw?
+\#*
+.DS_Store
+
+*.rej
+*.orig
+
+*.pro
+/packages/rpm/doxygen.spec
+*.idb
+*.pdb
+
+/doxygen_docs
+/doxygen.tag
+/build*
+/qtools_docs
+/warnings.log
+
+tags
+.cache/
+
+.idea
+cmake-build-debug/
+cmake-build-debug-event-trace/
+.vscode/
+
+/examples/html/*
+/examples/latex/*
+
+
+
+
+#	MISC GITIGNORE
+
+*.bak
+
