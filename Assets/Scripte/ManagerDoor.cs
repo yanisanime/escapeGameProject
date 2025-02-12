@@ -2,16 +2,19 @@ using UnityEngine;
 
 public class ManagerDoor : MonoBehaviour
 {
-    public Animator anim;
-    public bool isOpen;
+    public Door[] Door; 
+    //c'est un singleton
 
-
-
-
-    void Start()
+    public static ManagerDoor instance;
+    private void Awake()
     {
-        
+        if (instance == null)
+        {
+            instance = this;
+        }
     }
+
+
 
 
     void Update()

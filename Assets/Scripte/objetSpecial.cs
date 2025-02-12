@@ -1,16 +1,18 @@
 using UnityEngine;
+public enum TypeObject
+{
+    cube,
+    pyramide,
+    sphere
+}
 
 public class objetSpecial : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public TypeObject typeObject;
 
-    // Update is called once per frame
-    void Update()
+
+    public TypeObject getTypeObject()
     {
-        
+        return typeObject;
     }
 }
