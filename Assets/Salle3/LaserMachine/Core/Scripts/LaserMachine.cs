@@ -192,14 +192,15 @@ namespace Lightbug.LaserMachine
 
                                 if (!activateAReceptor)
                                 {
-                                    porte.addArecepteurCompleted();
+                                    porte.removeArecepteurCompleted();
                                     Debug.Log("Laser a activé un récepteur !");
                                     activateAReceptor = true;
                                 }
                             }
-                            else
+                            else if (activateAReceptor)
                             {
                                 activateAReceptor = false;
+                                porte.addArecepteurCompleted();
                             }
                         }
                         else
