@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Filtering;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class Recepteur : MonoBehaviour
 {
@@ -43,5 +45,8 @@ public class Recepteur : MonoBehaviour
         //{
         //    objCollider.enabled = false;
         //}
+
+        // Désactive le script de déplacement de l’objet
+        obj.GetComponent<XRGrabInteractable>().enabled = false;
     }
 }
