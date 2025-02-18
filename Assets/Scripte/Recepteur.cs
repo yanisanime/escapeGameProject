@@ -1,32 +1,47 @@
 using UnityEngine;
 
-
-
 public class Recepteur : MonoBehaviour
 {
-    public Door Door; 
+    public Door Door;
     public TypeObject typeObjectAccepted;
-
-    public bool isCompleted = false;
-
+    public Transform placementPosition; // Ajout d'une position spécifique
+    private bool isOccupied = false; //  Vérifie si un objet est déjà placé
 
     private void OnTriggerEnter(Collider other)
     {
         print("triggerENTER");
         objetSpecial obj = other.GetComponent<objetSpecial>();
-        if (obj != null && obj.getTypeObject() == typeObjectAccepted)
+
+        if (obj != null && obj.getTypeObject() == typeObjectAccepted && !isOccupied)
         {
+            print("Objet correct détecté, placement en cours...");
+            PlaceObject(obj);
             Door.addArecepteurCompleted();
+            isOccupied = true; //  Empêche d'accepter d'autres objets
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void PlaceObject(objetSpecial obj)
     {
-        print("triggerEXIT");
-        objetSpecial obj = other.GetComponent<objetSpecial>();
-        if (obj != null && obj.getTypeObject() == typeObjectAccepted)
+
+
+        // Place l’objet à la position définie
+        obj.transform.position = placementPosition.position;
+        obj.transform.rotation = placementPosition.rotation;
+
+        // Désactive le Rigidbody pour empêcher le mouvement
+        Rigidbody rb = obj.GetComponent<Rigidbody>();
+        if (rb != null)
         {
-            Door.removeArecepteurCompleted();
+            rb.isKinematic = true;
+            rb.angularVelocity = Vector3.zero;
         }
+
+        //// Désactive la possibilité de prendre l’objet (si tu as un système de grab)
+        //Collider objCollider = obj.GetComponent<Collider>();
+        //if (objCollider != null)
+        //{
+        //    objCollider.enabled = false;
+        //}
     }
 }
