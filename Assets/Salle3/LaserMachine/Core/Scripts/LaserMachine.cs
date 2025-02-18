@@ -18,11 +18,14 @@ namespace Lightbug.LaserMachine
             public LineRenderer lineRenderer;
             public GameObject sparks;
             public bool impact;
+            
         };
         private AudioSource laserAudioSource;
         private GameObject laserSoundObject;
         public AudioClip laserImpactSound;
 
+        public bool activateAReceptor = false;
+        public Door porte;
         List<LaserElement> elementsList = new List<LaserElement>();
 
 
@@ -180,6 +183,24 @@ namespace Lightbug.LaserMachine
                                 laserAudioSource.Play();
                                 Debug.Log("🔊 Laser impact sound is playing!");
                             }
+
+
+                            // Vérifier si l'objet touché a le tag "Recepteur"
+                            if (hitInfo3D.collider.CompareTag("Recepteur"))
+                            {
+
+
+                                if (!activateAReceptor)
+                                {
+                                    porte.addArecepteurCompleted();
+                                    Debug.Log("Laser a activé un récepteur !");
+                                    activateAReceptor = true;
+                                }
+                            }
+                            else
+                            {
+                                activateAReceptor = false;
+                            }
                         }
                         else
                         {
@@ -226,13 +247,6 @@ namespace Lightbug.LaserMachine
                             element.sparks.SetActive(hitInfo2D.collider != null);
 
                     }
-
-
-
-
-
-
-
                 }
                 else
                 {
@@ -241,6 +255,11 @@ namespace Lightbug.LaserMachine
                     if (m_assignSparks)
                         element.sparks.SetActive(false);
                 }
+
+
+
+
+
             }
 
         }

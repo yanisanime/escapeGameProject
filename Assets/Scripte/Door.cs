@@ -7,15 +7,8 @@ public class Door : MonoBehaviour
 
     
 
-    public Recepteur[] Recepteur; //chaque porte est associé à un ou plusieur récepteur
-    public int nbRecepteur = 0; //nombre de récepteur associé à la porte
-    public int nbRecepteurCompleted = 0; //nombre de récepteur qui ont été complété, de base 0
-
-    void Start()
-    {
-        nbRecepteur = Recepteur.Length;
-        nbRecepteurCompleted = 0;
-    }
+    public int nbRecepteur = 0; //nombre de rï¿½cepteur associï¿½ ï¿½ la porte
+    public int nbRecepteurCompleted = 0; //nombre de rï¿½cepteur qui ont ï¿½tï¿½ complï¿½tï¿½, de base 0
 
     public void addArecepteurCompleted()
     {
