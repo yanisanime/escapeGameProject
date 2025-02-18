@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3568523544776948996}
   - component: {fileID: 2081428238959893229}
   - component: {fileID: 448740660014270110}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 731243668908148798}
   - component: {fileID: 2611638935027836270}
   - component: {fileID: 2222772961041374246}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 507132236026002302}
   - component: {fileID: 8031783171180217166}
   - component: {fileID: 2736998545887406887}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +336,7 @@ GameObject:
   - component: {fileID: 3358413782543553097}
   - component: {fileID: 5720670373805981041}
   - component: {fileID: 3926041190231003061}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 2379544273559534700}
   - component: {fileID: 3569509930922587485}
   - component: {fileID: 3594865328433228660}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -549,7 +549,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3288777468320345173}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Salle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 2334712383683854407}
   - component: {fileID: 9089586692789856660}
   - component: {fileID: 3327391069133329846}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plafond
   m_TagString: Untagged
   m_Icon: {fileID: 0}

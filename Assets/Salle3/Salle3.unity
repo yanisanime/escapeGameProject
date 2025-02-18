@@ -316,26 +316,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4395762088481715949, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4395762088481715949, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 22.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6387255559601529403, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
-      propertyPath: m_inspectorProperties.m_rayWidth
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6387255559601529403, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
-      propertyPath: m_inspectorProperties.m_maxRadialDistance
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 6387255559601529403, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
-      propertyPath: m_inspectorProperties.m_minRadialDistance
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7151686287852316668, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
       propertyPath: m_Name
       value: LeLaser
@@ -393,6 +373,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 799211343040287044, guid: 526c2271149d7314c9c354ba63a2384a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1160769034095462171, guid: 526c2271149d7314c9c354ba63a2384a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3288777468320345173, guid: 526c2271149d7314c9c354ba63a2384a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.405114
@@ -433,9 +421,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4447474991822426904, guid: 526c2271149d7314c9c354ba63a2384a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4521889163464660196, guid: 526c2271149d7314c9c354ba63a2384a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957363261123268218, guid: 526c2271149d7314c9c354ba63a2384a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5090155343184640225, guid: 526c2271149d7314c9c354ba63a2384a, type: 3}
       propertyPath: m_Name
       value: Salle3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090155343184640225, guid: 526c2271149d7314c9c354ba63a2384a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6981016278921627318, guid: 526c2271149d7314c9c354ba63a2384a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
