@@ -33,9 +33,10 @@ public class Recepteur : MonoBehaviour
 
         // Désactive le Rigidbody pour empêcher le mouvement
         Rigidbody rb = obj.GetComponent<Rigidbody>();
+        rb.useGravity = false;
         if (rb != null)
         {
-            rb.isKinematic = true;
+            rb.useGravity = false;
             rb.angularVelocity = Vector3.zero;
         }
 
