@@ -281,10 +281,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4395762088481715949, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 21.98
+      objectReference: {fileID: 0}
     - target: {fileID: 6387255559601529403, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
       propertyPath: porte
       value: 
       objectReference: {fileID: 193858625}
+    - target: {fileID: 6387255559601529403, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
+      propertyPath: m_inspectorProperties.m_layerMask.m_Bits
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7151686287852316668, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
       propertyPath: m_Name
       value: LeLaser1
@@ -500,6 +508,10 @@ PrefabInstance:
     - target: {fileID: 3543418018798413903, guid: 1cc385519b058714abaebf1d15ca8124, type: 3}
       propertyPath: m_Name
       value: CacheLaser3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543418018798413903, guid: 1cc385519b058714abaebf1d15ca8124, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1809,7 +1821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2178597172976781104, guid: 1cc385519b058714abaebf1d15ca8124, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.487
+      value: 18.757
       objectReference: {fileID: 0}
     - target: {fileID: 2178597172976781104, guid: 1cc385519b058714abaebf1d15ca8124, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1846,6 +1858,10 @@ PrefabInstance:
     - target: {fileID: 3543418018798413903, guid: 1cc385519b058714abaebf1d15ca8124, type: 3}
       propertyPath: m_Name
       value: CacheLaser2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543418018798413903, guid: 1cc385519b058714abaebf1d15ca8124, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3666,10 +3682,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4395762088481715949, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.12
+      objectReference: {fileID: 0}
     - target: {fileID: 6387255559601529403, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
       propertyPath: porte
       value: 
       objectReference: {fileID: 193858625}
+    - target: {fileID: 6387255559601529403, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
+      propertyPath: m_inspectorProperties.m_layerMask.m_Bits
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7151686287852316668, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
       propertyPath: m_Name
       value: LeLaser2
@@ -3768,10 +3792,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4395762088481715949, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.06
+      objectReference: {fileID: 0}
     - target: {fileID: 6387255559601529403, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
       propertyPath: porte
       value: 
       objectReference: {fileID: 193858625}
+    - target: {fileID: 6387255559601529403, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
+      propertyPath: m_inspectorProperties.m_layerMask.m_Bits
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7151686287852316668, guid: 4b92add1fc965394a9b2e5c373df9e69, type: 3}
       propertyPath: m_Name
       value: LeLaser3
@@ -4104,7 +4136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2178597172976781104, guid: 1cc385519b058714abaebf1d15ca8124, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.481
+      value: 18.727
       objectReference: {fileID: 0}
     - target: {fileID: 2178597172976781104, guid: 1cc385519b058714abaebf1d15ca8124, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4141,6 +4173,10 @@ PrefabInstance:
     - target: {fileID: 3543418018798413903, guid: 1cc385519b058714abaebf1d15ca8124, type: 3}
       propertyPath: m_Name
       value: CacheLaser1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543418018798413903, guid: 1cc385519b058714abaebf1d15ca8124, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
